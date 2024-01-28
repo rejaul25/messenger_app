@@ -1,0 +1,187 @@
+/* universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    /* overflow: hidden; */
+
+}
+.friends_and_messeges_area{
+    height: 100vh;
+}
+ 
+/* universal */
+
+/* menu_and_left_side */
+/* user_profile_area */
+ .user_profile_img{
+    padding-top: 25px;
+ }
+.user_profile_img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+ 
+}
+/* user_profile_area */
+
+
+ .menu_and_left_side{
+    margin-left: -20px;
+    margin-right: -13px;
+    background: rgb(64, 64, 233);
+ }
+ 
+ .menu_and_left_side ul{
+   text-align: center;
+   padding-top: 90px;
+   
+ 
+ }
+ .menu_and_left_side ul li{
+    margin-top: 12px;
+    padding: 6px;
+    width: 45px;
+    height: 45px;
+    background: darkblue;
+    border-radius: 50%;
+    
+ }
+ 
+ .menu_and_left_side ul li a{
+    font-size: 20px;
+    color: #fff;
+    
+    
+  
+ }
+
+
+/* menu_and_left_side */
+
+/* friends_and_messeges_area */
+
+/* fonrtawsome_icon-style */
+.fa-bars-staggered{
+    font-size: 25px;
+    margin: 10px -18px 0px 0px;
+}
+.fa-circle{
+    font-size: 10px;
+    margin: 10px 0px 0px -15px;
+    color: red;
+
+}
+/* fonrtawsome_icon-style */
+
+/* search_bar */
+.center_search_bar{
+    background: #ddd;
+    padding: 8px;
+    width: 100%;
+    border-radius: 9px;
+}
+ .center_search_bar form input,button{
+
+    border: none;
+    outline: none;
+    background: none;
+
+ }
+ .friend_search_submite{
+    padding: 4px 8px; 
+    border-radius: 50%;
+    background: red;
+ }
+/* search_bar */
+/* feature_menu */
+.feature_menu{
+    margin: 15px 0px 0px -15px;
+}
+.feature_menu ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+
+}
+ 
+.feature_menu ul li a{
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+}
+/* feature_menu */
+/* personal_messege_head */
+.personal_messege_head p{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+/* personal_messege_head */
+
+/* personal_messege_start */
+.personal_messeges_area{
+    margin: 0px 0px 0px -27px;
+
+}
+.friend_card_left{
+    width: 15%;
+    height: auto;
+}
+.friend_card_left .friend_img img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 5px 0px 0px 0px;
+}
+.friend_card_right{
+    width: 80%;
+}
+.friend_card_right .friends_name{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+}
+.friend_card_right .active_status{
+    font-size: 12px;
+    font-size: 400;
+    color: gray;
+}
+.friend_send_me_massage span{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    
+}
+.personal_messeges_area ul{
+    overflow: hidden;
+    
+}
+.personal_messeges_area ul li a{
+    text-decoration: none;
+}
+.personal_messeges_area ul li{
+    margin: 18px 0px 0px 0px;
+    
+}
+.personal_messeges_area ul{
+    height: 400px;
+    overflow-y: scroll;
+}
+/* personal_messege_end */
+
+/* scrollbar_customize */
+    ::-webkit-scrollbar{
+        width: 4px;
+    }
+  
+    ::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background: white;
+    }
+/* scrollbar_customize */
+
+/* friends_and_messeges_area */
